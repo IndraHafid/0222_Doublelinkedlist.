@@ -82,6 +82,12 @@ bool search(int rollNo, Node** previous, Node** current)
     return (*current != NULL);
 }
 
+void deleteNode()
+{
+    Node* prevoius, * current;
+    int rollNo;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
