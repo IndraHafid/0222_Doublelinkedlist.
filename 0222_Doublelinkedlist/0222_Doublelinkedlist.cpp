@@ -15,6 +15,11 @@ struct Node
 
 Node* START = NULL;
 
+void addNode()
+{
+    Node* newNode = new Node();
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
