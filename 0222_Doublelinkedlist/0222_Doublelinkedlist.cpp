@@ -44,6 +44,7 @@ void addNode()
     {
         
         Node* current = START;
+        Node* previous = NULL;
     }
 }
 
