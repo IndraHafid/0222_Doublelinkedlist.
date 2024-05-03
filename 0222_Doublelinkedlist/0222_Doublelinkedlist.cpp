@@ -147,6 +147,10 @@ void traverse()
     {
         cout << "\nRecords in ascending order of roll number are: " << endl;
         Node* currentNode = START;
+        while (currentNode != NULL)
+        {
+
+        }
     }
 }
 
