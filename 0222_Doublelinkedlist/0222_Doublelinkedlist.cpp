@@ -139,6 +139,17 @@ bool listEmpity()
     return (START == NULL);
 }
 
+void traverse()
+{
+    if (listEmpity())
+        cout << "\nList is empty" << endl;
+    else
+    {
+        cout << "\nRecords in ascending order of roll number are: " << endl;
+
+    }
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
