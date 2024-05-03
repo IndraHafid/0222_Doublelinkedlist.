@@ -134,6 +134,11 @@ void deleteNode()
 
 }
 
+bool listEmpity()
+{
+    return (START == NULL);
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
