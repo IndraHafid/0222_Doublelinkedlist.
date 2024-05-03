@@ -97,6 +97,10 @@ void deleteNode()
     }
 
     current = START;
+    previous = NULL;
+
+
+
 }
 
 int main()
