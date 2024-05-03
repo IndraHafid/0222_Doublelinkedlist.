@@ -86,6 +86,9 @@ void deleteNode()
 {
     Node* prevoius, * current;
     int rollNo;
+
+    cout << "\nEnter the roll number off the student whose recird is to be deleted: ";
+    cin >> rollNo;
 }
 
 int main()
