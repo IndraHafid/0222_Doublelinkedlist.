@@ -89,6 +89,14 @@ void deleteNode()
 
     cout << "\nEnter the roll number off the student whose recird is to be deleted: ";
     cin >> rollNo;
+    
+    if (START == NULL)
+    {
+        cout << "List is empty" << endl;
+        return;
+    }
+
+    current = START;
 }
 
 int main()
